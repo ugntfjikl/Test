@@ -11,7 +11,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class Login0 extends JFrame {
-    /*
+ /*
 声明变量
  */
     private JTextField account;
