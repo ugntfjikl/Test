@@ -11,9 +11,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class Login0 extends JFrame {
- /*
+/*
 声明变量
- */
+*/
     private JTextField account;
     private JTextField password;
     private JPanel jPanel;
@@ -59,7 +59,7 @@ public class Login0 extends JFrame {
                     if(resultSet.next()){
                         System.out.println("登入成功");
                     }else{
-                        System.out.println("用户名或密码错误");
+                        System.out.println("用户名密码错误");
                     }
                 }
             } catch (ClassNotFoundException | SQLException ex) {
